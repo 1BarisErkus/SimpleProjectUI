@@ -1,0 +1,29 @@
+<form [formGroup]="formGroup">
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput formControlName="name">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Mission</mat-label>
+            <input type="text" matInput formControlName="mission">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Age</mat-label>
+            <input type="text" matInput formControlName="age">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Salary</mat-label>
+            <input type="text" matInput formControlName="salary">
+        </mat-form-field>
+    </div>
+    <div>
+        <button (click)="add_update()" mat-raised-button color="primary">Ekle - Düzenle</button>
+    </div>
+</form>

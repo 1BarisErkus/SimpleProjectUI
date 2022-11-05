@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  cursor: pointer;
+
+}
+
+span :hover {
+  color: red;
+}
